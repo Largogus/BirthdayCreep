@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    align-items: center;
+    background-color: #fff7db;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(background.png);
+    background-position: 100%;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.logo {
+    width: 25%;
+    border-radius: 35%;
+}
+
+.block_data {
+    display: flex;
+    width: 85%;
+    padding: 20px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c7b98b;
+}
+
+.block_name {
+    font-size: 2em;
+}
+
+.block {
+    display: flex;
+    width: 99%;
+    padding: 20px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    gap: 2%;
+}
+
+.button {
+    font-size: 1.5em;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background-color: azure;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+@media (max-width: 965px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .button {
+        font-size: 1em;
+        height: 60px;
+    }
+}
+
+@media (max-width: 845px) {
+    .button {
+        font-size: 0.9em;
+    }
+
+    .block {
+        display: grid;
+        gap: 5%;
+        row-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .block_data {
+        height: 70%;
+    }
+}
+
+@media (max-width: 637px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .block_name {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 587px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .block_name {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 481px) {
+    h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .block_name {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 331px) {
+    h1 {
+        font-size: 0.85em;
+        text-align: center;
+    }
+
+    .block_name {
+        font-size: 0.85em;
+        text-align: center;
+    }
+
+    .div {
+        gap: 50px;
+    }
+
+    .button {
+        font-size: 0.7em;
+    }
+}
