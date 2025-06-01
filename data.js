@@ -440,7 +440,7 @@ function loadResult() {
 
     if (keyWithMaxValue == 'ehnenra') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Эненра!</h1>'
-        block.innerHTML = '<p class="block_name"><b>Такой же весёлый и креативный</b></p>'
+        block.innerHTML = '<p class="block_name"><b>Разрушитель серверов, нервов друзей и просто ахуенный чел</b></p>'
         img.src = 'ehnenra.jpg';
     }
 
@@ -476,7 +476,7 @@ function loadResult() {
 
     if (keyWithMaxValue == 'tima') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Тима!</h1>'
-        block.innerHTML = '<p class="block_name"><b>🦅🦅🦅</b></p>'
+        block.innerHTML = '<p class="block_name"><b>Тимоха, че ты творишь?!</b></p>'
         img.src = 'tima.jpg';
     }
 
@@ -495,7 +495,7 @@ function loadResult() {
     if (keyWithMaxValue == 'strannik') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Ларген!</h1>'
         block.innerHTML = '<p class="block_name"><b>Кофе, ночь и код - всё, что нужно для счастья</b></p>'
-        img.src = 'largen.jpg';
+        img.src = 'strannik.jpg';
     }
 
     if (keyWithMaxValue == 'artem') {
