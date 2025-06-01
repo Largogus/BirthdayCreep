@@ -441,73 +441,73 @@ function loadResult() {
     if (keyWithMaxValue == 'ehnenra') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Эненра!</h1>'
         block.innerHTML = '<p class="block_name"><b>Разрушитель серверов, нервов друзей и просто ахуенный чел</b></p>'
-        img.src = 'ehnenra.jpg';
+        img.src = 'image/people/ehnenra.jpg';
     }
 
     if (keyWithMaxValue == 'lexer') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Лекс!</h1>'
         block.innerHTML = '<p class="block_name"><b>Поспать это главное, сон - это жизнь</b></p>'   
-        img.src = 'lexer.jpg';
+        img.src = 'image/people/lexer.jpg';
     }
 
     if (keyWithMaxValue == 'vlad') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Влад!</h1>'
         block.innerHTML = '<p class="block_name"><b>Не позволяй душе лениться! Чтоб в ступе воду не толочь</b></p>'
-            img.src = 'vlad.jpg';
+            img.src = 'image/people/vlad.jpg';
     }
 
     if (keyWithMaxValue == 'hardys') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Хардис!</h1>'
         block.innerHTML = '<p class="block_name"><b>Напоминаю кстати, они открыты!</b></p>'
-            img.src = 'hardys.jpg';
+            img.src = 'image/people/hardys.jpg';
     }
 
     if (keyWithMaxValue == 'red') { 
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Красный Кровать!</h1>'
         block.innerHTML = '<p class="block_name"><b>Урааа подарки!!!</b></p>'
-        img.src = 'red.jpg';
+        img.src = 'image/people/red.jpg';
     }
 
     if (keyWithMaxValue == 'maks') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Макс!</h1>'
         block.innerHTML = '<p class="block_name"><b>"Приключение на 5 минут, вошли и вышли"</b></p>'
-        img.src = 'maks.jpg';
+        img.src = 'image/people/maks.jpg';
     }
 
     if (keyWithMaxValue == 'tima') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Тима!</h1>'
         block.innerHTML = '<p class="block_name"><b>Тимоха, че ты творишь?!</b></p>'
-        img.src = 'tima.jpg';
+        img.src = 'image/people/tima.jpg';
     }
 
     if (keyWithMaxValue == 'kitik') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Китик!</h1>'
         block.innerHTML = '<p class="block_name"><b>Супер дупер добри котик <3 (неважно что меня называют 40-летним маньяком)</b></p>'
-        img.src = 'kitik.jpg';
+        img.src = 'image/people/kitik.jpg';
     }
 
     if (keyWithMaxValue == 'largen') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Ларген!</h1>'
         block.innerHTML = '<p class="block_name"><b>Кофе, ночь и код - всё, что нужно для счастья</b></p>'
-        img.src = 'largen.jpg';
+        img.src = 'image/people/largen.jpg';
     }
 
     if (keyWithMaxValue == 'strannik') {
-        text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Ларген!</h1>'
+        text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Странник!</h1>'
         block.innerHTML = '<p class="block_name"><b>Люби себя тринадцатый</b></p>'
-        img.src = 'strannik.jpg';
+        img.src = 'image/people/strannik.jpg';
     }
 
     if (keyWithMaxValue == 'artem') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Артём!</h1>'
         block.innerHTML = '<p class="block_name"><b>Лучше поздно чем никогда</b></p>'
-        img.src = 'artem.jpg';
+        img.src = 'image/people/artem.jpg';
     }
 
     if (keyWithMaxValue == 'nastilka') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Настилка!</h1>'
         block.innerHTML = '<p class="block_name"><b>Наша компания может и небольшая, но все здесь с психическими отклонениями</b></p>'
-        img.src = 'nastilka.jpg';
+        img.src = 'image/people/nastilka.jpg';
     }
 }
 
@@ -532,7 +532,7 @@ image.addEventListener('click', function() {
 
     text.innerHTML = '<h1 style="font-size: 1em; text-align: justufy;">Вы наше любимое Сообщетсво!</h1>'
     block.innerHTML = '<p class="block_name" id="kanistra"><b>Такое же комфортное и любимое</b></p>'
-    img.src = 'UCC_IMAGE.webp';
+    img.src = 'image/people/UCC_IMAGE.webp';
 
     kan()
     })
