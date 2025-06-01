@@ -494,7 +494,7 @@ function loadResult() {
 
     if (keyWithMaxValue == 'strannik') {
         text.innerHTML = '<h1 style="font-size: 1em; text-align: justify;">Вы Ларген!</h1>'
-        block.innerHTML = '<p class="block_name"><b>Кофе, ночь и код - всё, что нужно для счастья</b></p>'
+        block.innerHTML = '<p class="block_name"><b>Люби себя тринадцатый</b></p>'
         img.src = 'strannik.jpg';
     }
 
