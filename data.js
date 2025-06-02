@@ -518,7 +518,6 @@ function kan() {
     kanistra.addEventListener('click', function() {
             const block = document.querySelector('.block_data');
             const text = document.querySelector('.h');
-            const img = document.querySelector('#ico');
 
             text.innerHTML = '<h1 style="font-size: 1em; text-align: justufy;">ТОЛЬКО НЕ КАНИСТРА!</h1>'
             block.innerHTML = '<p class="block_name" id="kanistra"><b>КАНИСТРА ПОШЁЛ НАХУЙ!</b></p>'
@@ -532,7 +531,7 @@ image.addEventListener('click', function() {
 
     text.innerHTML = '<h1 style="font-size: 1em; text-align: justufy;">Вы наше любимое Сообщетсво!</h1>'
     block.innerHTML = '<p class="block_name" id="kanistra"><b>Такое же комфортное и любимое</b></p>'
-    img.src = 'image/people/UCC_IMAGE.webp';
+    img.src = 'image/UCC_IMAGE.webp';
 
     kan()
     })
